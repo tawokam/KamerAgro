@@ -103,7 +103,7 @@ export default function Onboarding() {
               {!isMobile && (
                 <div className="flex mt-6 justify-center lg:justify-start">
                   <motion.a
-                    href="/download/kameragro.apk"
+                    href="/download/app-debug.apk"
                     download
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
