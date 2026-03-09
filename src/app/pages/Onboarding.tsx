@@ -18,7 +18,7 @@ export default function Onboarding() {
   
     setIsBrowser(!standalone);
   }, []);
-  
+
   // Produits les plus vendus (top 4)
   const topProducts = products.slice(0, 4);
 
@@ -108,7 +108,7 @@ export default function Onboarding() {
                   Acheteur / PME
                 </motion.button>
               </div>
-              {!isBrowser && (
+              {isBrowser && (
                 <div className="flex mt-6 justify-center lg:justify-start">
                   <motion.a
                     href="/download/app-debug.apk"
