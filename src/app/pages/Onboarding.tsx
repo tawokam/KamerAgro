@@ -9,7 +9,7 @@ export default function Onboarding() {
   const navigate = useNavigate();
 
 
-  const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+  const isBrowser = !window.matchMedia('(display-mode: standalone)').matches;
 
   // Produits les plus vendus (top 4)
   const topProducts = products.slice(0, 4);
@@ -100,7 +100,7 @@ export default function Onboarding() {
                   Acheteur / PME
                 </motion.button>
               </div>
-              {!isMobile && (
+              {!isBrowser && (
                 <div className="flex mt-6 justify-center lg:justify-start">
                   <motion.a
                     href="/download/app-debug.apk"
