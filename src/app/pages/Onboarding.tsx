@@ -2,15 +2,23 @@ import { useNavigate } from "react-router";
 import { Sprout, ShoppingCart, TrendingUp, Package, BadgeCheck, MapPin, Download } from "lucide-react";
 import { motion } from "motion/react";
 import { products } from "../data/mockData";
-
+import { useEffect, useState } from "react";
 import logo from "../../assets/logo1.jpeg";
 
 export default function Onboarding() {
   const navigate = useNavigate();
 
 
-  const isBrowser = !window.matchMedia('(display-mode: standalone)').matches;
+  const [isBrowser, setIsBrowser] = useState(false);
 
+  useEffect(() => {
+    const standalone =
+      window.matchMedia('(display-mode: standalone)').matches ||
+      window.navigator.standalone === true;
+  
+    setIsBrowser(!standalone);
+  }, []);
+  
   // Produits les plus vendus (top 4)
   const topProducts = products.slice(0, 4);
 
