@@ -4,7 +4,6 @@ import { motion } from "motion/react";
 import { products } from "../data/mockData";
 
 import logo from "../../assets/logo1.jpeg";
-//import appFile from "../../public/download/kameragro.apk";
 
 export default function Onboarding() {
   const navigate = useNavigate();
@@ -104,8 +103,8 @@ export default function Onboarding() {
               {!isMobile && (
                 <div className="flex mt-6 justify-center lg:justify-start">
                   <motion.a
-                    href={appFile}
-                    download="/download/kameragro.apk"
+                    href="/download/kameragro.apk"
+                    download
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     className="backdrop-blur-xl bg-white/10 hover:bg-white/15 border border-[#C6A664] text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all cursor-pointer"
