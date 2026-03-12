@@ -81,8 +81,7 @@ export default function Onboarding() {
               </h1>
 
               <p className="text-[#C6A664] font-semibold text-lg  leading-relaxed">
-                KamerAgro connecte les producteurs aux acheteurs pour une agriculture moderne,
-                transparente et rentable.
+              KamerAgro connecte producteurs, éleveurs et acheteurs pour un secteur agropastoral moderne, transparent et rentable.
               </p>
 
               {/* Boutons */}
