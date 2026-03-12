@@ -316,7 +316,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "Légumes Frais Mélangés",
+    name: "Légumes Frais",
     category: "Légumes",
     price: 15000,
     unit: "caisse de 25kg",
@@ -326,7 +326,7 @@ export const products = [
     verified: true,
     date: "2026-03-04",
     quantity: 80,
-    image: "https://images.unsplash.com/photo-1687422809617-a7d97879b3b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwdmVnZXRhYmxlcyUyMG1hcmtldHxlbnwxfHx8fDE3NzI2NDU5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=1080&q=80",
     description: "Sélection de légumes frais du jour: tomates, oignons, poivrons. Livraison rapide garantie.",
   },
   {
@@ -341,7 +341,7 @@ export const products = [
     verified: true,
     date: "2026-03-02",
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1627829380497-49c37b769ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZmFybWVyJTIwc21hcnRwaG9uZSUyMGZpZWxkfGVufDF8fHx8MTc3MjY0NTkyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://pixabay.com/get/g864193492268ee0bab2584c46079ed36dfadefb317c7626ba6e3c5f1a53b6edf050b47f138014fc2c8715fb751c68489_1920.jpg",
     description: "Manioc séché et prêt pour la transformation en farine, couscous ou gari. Traité selon les normes ATC.",
   },
   {
@@ -356,7 +356,7 @@ export const products = [
     verified: false,
     date: "2026-03-03",
     quantity: 120,
-    image: "https://images.unsplash.com/photo-1723465330888-5d031a758de4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwd29tYW4lMjBhZ3JpY3VsdHVyZSUyMGhhcnZlc3R8ZW58MXx8fHwxNzcyNjQ1OTI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://pixabay.com/get/g3f70e7efb91f4c45f0c320c1356b9d68cc03f700730c89d1f5b7581ce2762111a706b6621c7132d51a594156ae0d7512c4de4170892ea0c9960766f3e35aa931_1920.jpg",
     description: "Plantains de première qualité. Idéaux pour la production de chips, farine ou vente directe.",
   },
   {
@@ -371,7 +371,7 @@ export const products = [
     producer: "Union des Producteurs du Nord",
     date: "2026-02-29",
     quantity: 300,
-    image: "https://images.unsplash.com/photo-1687422809617-a7d97879b3b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwdmVnZXRhYmxlcyUyMG1hcmtldHxlbnwxfHx8fDE3NzI2NDU5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://pixabay.com/get/g849d4cfcbc0a99ac69b74c4d2a03b4748896743505e10ada9d9cf9f1ca3b800cd91566764abc90bf325d897d537db386e93479ea480493e20a9f1a57a32a4f3f_1920.jpg",
     description: "Arachides triées et décortiquées. Parfaites pour l'extraction d'huile ou la production de pâte d'arachide.",
   },
   {
@@ -401,7 +401,7 @@ export const products = [
     verified: true,
     date: "2026-03-04",
     quantity: 800,
-    image: "https://images.unsplash.com/photo-1535591273668-578e31182c4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaXNoJTIwZmFybSUyMHRpbGFwaWF8ZW58MHx8fHwxNzA5NDc0NDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://pixabay.com/get/g158aa1f651c6c0421d67575a7581216734532d97c4049021467f16a560b47f72f49e20636d5aa21d92dd2447dcecfe6d_1920.jpg",
     description: "Tilapia frais d'élevage en bassin, poids moyen 400-500g. Production certifiée ATC, livraison rapide garantie.",
   },
   {
