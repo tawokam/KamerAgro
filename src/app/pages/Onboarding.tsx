@@ -80,7 +80,7 @@ export default function Onboarding() {
                 La technologie au service de notre terre
               </h1>
 
-              <p className="text-[#C6A664] font-semibold text-lg  leading-relaxed">
+              <p className="text-[#C6A664] font-semibold text-sm leading-relaxed">
               KamerAgro connecte producteurs, éleveurs et acheteurs pour un secteur agropastoral moderne, transparent et rentable.
               </p>
 
