@@ -59,7 +59,7 @@ export default function Onboarding() {
             </div>
             <div>
               <div className="text-2xl font-extrabold text-white tracking-tight">KamerAgro</div>
-              <div className="text-xs text-[#C6A692] font-light tracking-widest">by ATC</div>
+              <div className="text-xs text-#C6A664 font-bold tracking-widest">by ATC</div>
             </div>
           </div>
         </motion.div>
@@ -80,7 +80,7 @@ export default function Onboarding() {
                 La technologie au service de notre terre
               </h1>
 
-              <p className="text-white/70 text-lg font-light leading-relaxed">
+              <p className="text-[#C6A664] font-semibold text-lg  leading-relaxed">
                 KamerAgro connecte les producteurs aux acheteurs pour une agriculture moderne,
                 transparente et rentable.
               </p>

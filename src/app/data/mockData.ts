@@ -386,7 +386,7 @@ export const products = [
     verified: true,
     date: "2026-03-05",
     quantity: 45,
-    image: "https://images.unsplash.com/photo-1560493676-04071c5f467b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXR0bGUlMjBmYXJtJTIwYWZyaWNhfGVufDB8fHx8MTcwOTQ3NDQzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://img3.stockfresh.com/files/d/dolgachov/m/20/8654417_stock-photo-herd-of-cows-grazing-in-savannah-at-africa.jpg",
     description: "Bœufs de race locale en excellente santé, élevés en pâturage naturel. Viande de qualité premium pour boucheries et restaurants.",
   },
   {
